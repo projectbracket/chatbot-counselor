@@ -1,0 +1,127 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "What's up?", "I need help"],
+      "responses": [
+        "Hi, what can I do for you?",
+        "Hello, how can I help you today?"
+      ]
+    },
+	
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Cya", "Thank you"],
+      "responses": [
+        "See you later, thanks for using the chatbot.",
+        "Have a nice day!",
+        "Bye! Hope to see you soon."
+      ]
+    },
+    
+    {
+      "tag": "transfer",
+      "patterns": ["How do I transfer?", "What is transferring?", "I am looking for transfer resources", "How do I transfer to a four year university?"],
+      "responses": [
+        "You can find DVC's extensive transfer resources at <a href='https://www.dvc.edu/enrollment/transfer/'>https://www.dvc.edu/enrollment/transfer/</a>."
+      ]
+    },
+    
+    {
+      "tag": "transfer_reqs",
+      "patterns": ["What are my major transfer requirements", "What classes should I take"],
+      "responses": [
+        "You can find all major requirements at <a href='https://assist.org/'>https://assist.org/</a> by selecting your academic year, current institution (Diablo Valley College) and other institution (your desired university)."
+      ]
+    },
+    
+    {
+      "tag": "enroll",
+      "patterns": ["How do I enroll in classes?", "How can I sign up for classes?", "How can I add classes?", "How do I register for classes?"],
+      "responses": [
+        "To register for classes, start by logging in at https://www.4cd.edu/insite/. Go to Plan-Progress and then click on Plan and Register. There you will be able to plan your classes, see a timeline of your upcoming semesters at DVC, see different sections for classes and where to go in order to register. However, you will only be able to register when registration begins, so make sure to check your date."
+      ]
+    },
+    
+    {
+      "tag": "register",
+      "patterns": ["How can I become a student at DVC?", "How do I join DVC?"],
+      "responses": [
+        "To become a student at DVC check out Enrollment Services at <a href='https://www.dvc.edu/enrollment/index.html'>https://www.dvc.edu/enrollment/index.html</a>. There is information about anything from admissions to class enrollment."
+      ]
+    },
+    
+    {
+      "tag": "tutoring",
+      "patterns": ["Where can I find tutoring resources?", "Where is tutoring?", "How can I get some help on my homework?", "Where can I find a tutor?"],
+      "responses": [
+        "For tutoring, visit <a href = 'https://www.dvc.edu/current/student-centers/index.html'>https://www.dvc.edu/current/student-centers/index.html</a>. There you will find student centers, both online and on-campus, for different interest areas: Arts, Communication and Language; Business, Computer Science, and Culinary; Math and Engineering; Science and Health; and Social Sciences. If you're not sure which one to choose, both the Pleasant Hill and San Ramon have Academic Support Centers where someone can help you."
+      ]
+    },
+    
+    {
+      "tag": "class_catalog",
+      "patterns": ["Where can I find the catalog?", "What classes are available?", "What classes can I take?", "Where can I find a list of classes?"],
+      "responses": [
+        "To find all available classes, please visit <a href='https://www.dvc.edu/academics/schedules-and-catalogs/index.html'>https://www.dvc.edu/academics/schedules-and-catalogs/index.html</a>. There you should find the class schedule and catalog for upcoming semesters."
+      ]
+    },  
+    
+    {
+      "tag": "counseling",
+      "patterns": ["How can I meet up with a counselor?", "How to meet with a counselor?", "How to reach the counselor office?", "How can I schedule a meeting?"],
+      "responses": [
+        "To learn more about counseling, visit <a href = 'https://www.dvc.edu/enrollment/counseling/index.html'>https://www.dvc.edu/enrollment/counseling/index.html</a>. There you can find academic, wellness, or specialized counseling; you can also schedule both in-person and virtual appointments."
+      ]
+    },
+    
+    {
+      "tag": "financial_aid",
+      "patterns": ["How can I get financial aid?", "How to apply for financial aid?", "How to apply for scholarships?", "How can I get money for school?"],
+      "responses": [
+        "For financial aid info, visit <a href = 'https://www.dvc.edu/student-services/financial-aid/index.html'>https://www.dvc.edu/student-services/financial-aid/index.html</a>, where you can check your eligibility for grants, scholarships, loans, or work-study. You will also find info about the financial aid application process. To find more specific help, you can also find various workshops on financial aid options at <a href = 'https://www.dvc.edu/student-services/financial-aid/workshops.html'>https://www.dvc.edu/student-services/financial-aid/workshops.html</a>. Also make sure to apply for federal student aid at <a href='https://studentaid.gov/h/apply-for-aid/fafsa'>https://studentaid.gov/h/apply-for-aid/fafsa</a>."
+      ]
+    },
+    
+    {
+      "tag": "dss",
+      "patterns": ["Where can I get support for my disability?", "Can I apply for disability support?", "Do you have a disability support program?", "How can I get support accommodations for my disability?", "Where can I find help about my disability?", "Disability", "Disability Support Services"],
+      "responses": [
+        "To see DVC's disability support resources, go to <a href = 'https://www.dvc.edu/student-services/disability-support-services/index.html'>https://www.dvc.edu/student-services/disability-support-services/index.html</a>. There you can find information about DVC's Disability Support Services program. From their office you can easily apply for services, check out equipment, access tutoring, request accommodations, or set up an appointment with a DSS counselor."
+      ]
+    },
+    
+    {
+      "tag": "calendars",
+      "patterns": ["When does the fall semester start?", "When does the spring semester start?", "When does the summer semester start?", "What important dates are there?", "When is the winter break?", "When is the spring break?", "When is summer break?", "When do classes end?", "When do classes start?", "Is there a day off soon?"],
+      "responses": [
+        "You can find the academic calendar and other important dates at <a href ='https://www.dvc.edu/academics/calendars/index.html'>https://www.dvc.edu/academics/calendars/index.html</a>."
+      ]
+    },
+        
+    {
+      "tag": "rmp",
+      "patterns": ["How good is this professor?", "Which professor is the best?", "Rate My Professor", "Where do I find ratings of professors?", "RMP"],
+      "responses": [
+        "<a href = 'https://www.ratemyprofessors.com/campusRatings.jsp?sid=1245'>Rate My Professors</a> is a great website to read about the experiences of other students who have previously taken a professor's class, and make more informed decisions during the enrollment period."
+      ]
+    },
+    
+    {
+      "tag": "degree",
+      "patterns": ["How can I get a degree from DVC?", "Degree", "Certificate", "Associates for Transfer", "Certificate for Transfer"],
+      "responses": [
+        "DVC offers associate degrees and certificates for many different programs. For more information, check <a href = 'https://www.dvc.edu/academics/programs.html'>https://www.dvc.edu/academics/programs.html</a>."
+      ]
+    },
+    
+    {
+      "tag": "degree",
+      "patterns": ["How can I get a degree from DVC?", "Degree", "Certificate", "Associates for Transfer", "Certificate for Transfer"],
+      "responses": [
+        "DVC offers associate degrees and certificates for many different programs. For more information, check <a href = 'https://www.dvc.edu/academics/programs.html'>https://www.dvc.edu/academics/programs.html</a>."
+      ]
+    }
+    
+  ]
+}
